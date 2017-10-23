@@ -73,7 +73,9 @@ namespace Praktiskais_7
                 step += double.Parse(Console.ReadLine());
                 index++;
             }
-            while (index <= A);
+            while (index < A);
+
+            Console.WriteLine($"Sum[{index}] = {step}");
         }
     }
 }
