@@ -75,6 +75,13 @@ namespace Praktiskais_8
                 Console.WriteLine(_a + new string('*', i) + _a);
             }
 
+
+            //for (int i = 1; i <= size; i += 2)
+            //{
+            //    string _a = new string(' ', (size - i) / 2);
+            //    Console.WriteLine(_a + new string('*', i) + _a);
+            //}
+
             Console.ReadLine();
         }
     }
