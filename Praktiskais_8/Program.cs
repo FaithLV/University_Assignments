@@ -11,8 +11,8 @@ namespace Praktiskais_8
         static void Main(string[] args)
         {
             //Pirmais();
-            //Otrais();
-            Tresais();
+            Otrais();
+            //Tresais();
         }
 
         static void Pirmais()
