@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Praktiskais_13
@@ -98,18 +99,15 @@ namespace Praktiskais_13
                 Console.Write(chars1[i]);
             }
 
+            Console.WriteLine();
+
             Console.WriteLine("Ievadiet 3. simbolu rindu");
             char[] chars3 = Console.ReadLine().ToArray();
+            string masivs = new string(apvienotaismasivs);
 
-            //for (int i = 0; i < apvienotaismasivs.Length; i++)
-            //{
-            //    if(apvienotaismasivs[i] == chars3[0])
-            //    {
+            int count = masivs.Split(chars3).Count();
 
-            //    }
-            //}
-
-            Console.WriteLine("3. simbolu rinda apvienotajā rindā atkārtojas !x reizes");
+            Console.WriteLine($"3. simbolu rinda apvienotajā rindā atkārtojas {count} reizes");
 
             Console.ReadLine();
         }
