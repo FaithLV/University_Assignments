@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktiskais_11", "Praktiska
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktiskais_12", "Praktiskais_12\Praktiskais_12.csproj", "{CD796393-FF28-409E-AE97-D4CC585CE3B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktiskais_13", "Praktiskais_13\Praktiskais_13.csproj", "{54D20013-097F-4365-ADBE-83C9C7696F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,18 @@ Global
 		{CD796393-FF28-409E-AE97-D4CC585CE3B6}.Release|x64.Build.0 = Release|Any CPU
 		{CD796393-FF28-409E-AE97-D4CC585CE3B6}.Release|x86.ActiveCfg = Release|Any CPU
 		{CD796393-FF28-409E-AE97-D4CC585CE3B6}.Release|x86.Build.0 = Release|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Debug|x64.Build.0 = Debug|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Debug|x86.Build.0 = Debug|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Release|x64.ActiveCfg = Release|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Release|x64.Build.0 = Release|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Release|x86.ActiveCfg = Release|Any CPU
+		{54D20013-097F-4365-ADBE-83C9C7696F9A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
