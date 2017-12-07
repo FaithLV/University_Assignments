@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktiskais_13", "Praktiska
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktiskais_14", "Praktiskais_14\Praktiskais_14.csproj", "{3C3D273B-E0E9-4D84-BCA1-EEDB5C2C1776}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktiskais_15", "Praktiskais_15\Praktiskais_15.csproj", "{5F558014-57AF-415A-ADF8-329E3AEA9774}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,18 @@ Global
 		{3C3D273B-E0E9-4D84-BCA1-EEDB5C2C1776}.Release|x64.Build.0 = Release|Any CPU
 		{3C3D273B-E0E9-4D84-BCA1-EEDB5C2C1776}.Release|x86.ActiveCfg = Release|Any CPU
 		{3C3D273B-E0E9-4D84-BCA1-EEDB5C2C1776}.Release|x86.Build.0 = Release|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Debug|x64.Build.0 = Debug|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Release|x64.ActiveCfg = Release|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Release|x64.Build.0 = Release|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F558014-57AF-415A-ADF8-329E3AEA9774}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
