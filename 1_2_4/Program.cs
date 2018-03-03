@@ -14,6 +14,8 @@ namespace _1_2_4
 
         static void Main(string[] args)
         {
+            new Otrais();
+
             for (int i = 0; i < garr1.Length; i++)
             {
                 garr1[i] = rand.Next(1, 11);
@@ -77,7 +79,6 @@ namespace _1_2_4
 
             ShowOptions();
         }
-
         static void Summet(double[] a1, double[] a2)
         {
             double[] a3;
