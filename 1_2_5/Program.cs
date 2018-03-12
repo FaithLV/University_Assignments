@@ -13,7 +13,7 @@ namespace _1_2_5
             //Console.WriteLine("Ievadi skaitli:");
             //int input = Int32.Parse(Console.ReadLine());
             //Console.WriteLine($"Summa: {Sum(input)}");
-            Aritm(0, 3, 3);
+            Aritm(3, 3, 0);
             Console.ReadLine();
         }
 
@@ -29,7 +29,15 @@ namespace _1_2_5
             }
         }
 
-        
+        static int Aritm(int count, int step, int start)
+        {
+            int v = (count == 0) ? 0 : start + Aritm(count - 1, step, start) + step;
+            if(v != 0)
+            {
+                Console.WriteLine(v);
+            }
+            return v;
+        }
 
     }
 }
