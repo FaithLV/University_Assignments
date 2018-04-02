@@ -81,17 +81,25 @@ namespace _1_2_8
         {
             get
             {
-                DateTime zero = new DateTime(1,1,1);
+                if(Pers_kods != null)
+                {
+                    DateTime zero = new DateTime(1, 1, 1);
 
-                string s = Pers_kods.Remove(6,6);
-                s = s.Insert(2, "-");
-                s = s.Insert(5, "-");
+                    string s = Pers_kods.Remove(6, 6);
+                    s = s.Insert(2, "-");
+                    s = s.Insert(5, "-");
 
-                DateTime birth = DateTime.ParseExact(s, "dd-MM-yy", CultureInfo.InvariantCulture);
-                TimeSpan span = DateTime.Now - birth;
-                int years = (zero + span).Year - 1;
+                    DateTime birth = DateTime.ParseExact(s, "dd-MM-yy", CultureInfo.InvariantCulture);
+                    TimeSpan span = DateTime.Now - birth;
+                    int years = (zero + span).Year - 1;
 
-                return years;
+                    return years;
+                }
+                else
+                {
+                    return 0;
+                }
+                
             }
         }
 
@@ -180,7 +188,7 @@ namespace _1_2_8
 
         public void OldestStudent()
         {
-            Skolens oldest = new Skolens { Pers_kods = "000000-00000" };
+            Skolens oldest = new Skolens();
 
             foreach(Skolens st in Skoleni)
             {
