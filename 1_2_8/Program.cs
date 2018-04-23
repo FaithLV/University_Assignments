@@ -213,11 +213,13 @@ namespace _1_2_8
                 }
             }
 
-            if(fs == null)
+            if(fs == null)  
             {
                 Console.WriteLine("Netika atrasts");
                 return;
             }
+
+            
 
             Console.WriteLine("Atrasts:");
             Console.WriteLine($"{fs.Vards} {fs.Uzvards} - {fs.Age}");
